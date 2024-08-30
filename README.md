@@ -18,15 +18,16 @@ Transmission: Type of transmission (e.g., Manual, Automatic)
 Owner: Number of previous owners
 
 __________
-dataset: car_price_prediction_incorrect.ipynb
+Notebook: car_price_prediction_incorrect.ipynb
+
 ### Feature Engineering
 1. Generated new columns:
 
-Car_Age: Car age (2019 - Year). 2019 is the maximum of year in this dataset + 1.
+    Car_Age: Car age (2019 - Year). 2019 is the maximum of year in this dataset + 1.
 
 2. Turn text into numerical data with one-hot encoding
 
-Applied on Fuel_Type, Seller_Type and Transmission columns.
+    Applied on Fuel_Type, Seller_Type and Transmission columns.
 
 3. Transformation
 
@@ -52,6 +53,7 @@ Average Cross-Validated R² Score: -8.615993705516049e+21
 Given the persistent issues with extremely high Mean Squared Error (MSE) and extremely negative R² scores, even in simpler models like linear regression without polynomial features, it's clear that linear models may not be suitable for your dataset. These outcomes suggest a fundamental mismatch between the model type and the data characteristics, or possibly underlying issues with data quality or feature engineering. So, I redo the feature engineering section.
 
 _________
+Notebook: car_price_prediction.ipynb
 
 ### Redo Feature Engineering
 1. Apply one-hot encoding correctly
