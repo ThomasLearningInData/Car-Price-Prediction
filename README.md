@@ -37,8 +37,11 @@ Present_Price and Kms_Driven are right-skewed. So normalize data distributions w
 
 ### Evaluate Model
 Training Data - Mean Squared Error (MSE): 0.60
+
 Training Data - R² Score: 0.98
+
 Test Data - Mean Squared Error (MSE): 1.06
+
 Test Data - R² Score: 0.95
 
 The model is overfitting. So I decided to check with cv.
@@ -56,10 +59,15 @@ _________
 
 ### Result
 Training Data - Mean Squared Error (MSE): 0.02
+
 Training Data - R² Score: 0.97
+
 Test Data - Mean Squared Error (MSE): 0.03
+
 Test Data - R² Score: 0.95
+
 Cross-Validated Mean Squared Error (MSE): 0.02
+
 Cross-Validated R² Score: 0.96
 
 The model performance is good and there is no overfitting indication.
