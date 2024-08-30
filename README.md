@@ -31,5 +31,6 @@ Applied on Fuel_Type, Seller_Type and Transmission columns.
 Present_Price and Kms_Driven are right-skewed. So normalize data distributions will improve the performance. 
 ![image](https://github.com/user-attachments/assets/87de0a61-3f6a-49ad-b06f-d00ce6f1151a)
 
-![image](https://github.com/user-attachments/assets/e4d01e1b-ee4f-467d-88b0-9027bedc4710)
+![image](https://github.com/user-attachments/assets/280b0af0-0785-473c-9349-b110c40943ca)
+
 
