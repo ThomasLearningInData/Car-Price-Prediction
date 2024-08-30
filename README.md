@@ -33,4 +33,10 @@ Present_Price and Kms_Driven are right-skewed. So normalize data distributions w
 
 ![image](https://github.com/user-attachments/assets/280b0af0-0785-473c-9349-b110c40943ca)
 
+### Result
+The result is very good with
+
+Mean Squared Error (MSE): 1.06
+
+R² Score: 0.95
 
